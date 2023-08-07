@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        *{
+            /* margin: 0px;
+            padding: 0px; */
+        }
+        header{
+            background:black;
+            height: 20vh;
+            position: relative;
+            top: 30px;
+            /* position: sticky;*/
+            z-index: 2; 
+            color: white;
+        }
+        ul{
+            list-style:georgian ;
+        }
+        li{
+            display: inline-block; 
+            margin: 10px;
+            padding: 4px;
+        }
+        .container{
+            background:yellow;
+            height:120vh;
+        }
+        .box1{
+            background: green;
+            height: 45vh;
+            width: 184vh;
+            position: relative;
+            left: 211px;
+            top: 55px;
+            /* position: absolute;
+            left:0px;
+            z-index: 1; */
+            
+        }
+        .box2{
+            background: rgb(38, 123, 172);
+            height: 45vh;
+            width: 87vh;
+            /* position: relative;
+            left: 484px;
+            bottom: 182px; */
+            /* position: relative;
+            left: 620px; */
+            position: fixed;
+            bottom: 0px;
+            left: 1013px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Cv</li>
+            <li>Blogs</li>
+        </ul>
+    </header>
+    <div class="container">
+        <div class="box1"></div>
+        <div class="box2"></div>
+    </div>
+</body>
+</html>

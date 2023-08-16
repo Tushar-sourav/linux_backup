@@ -1,0 +1,11 @@
+
+/* .text-center{
+    text-align: center;
+} */
+
+.Flex-all-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bruno Ace SC', cursive;
+}

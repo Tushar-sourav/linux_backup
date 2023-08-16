@@ -1,0 +1,356 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  background-image: url("banner-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+
+}
+
+header {
+  display: flex;
+  font-family: "Lato", sans-serif;
+}
+
+nav .logo {
+  font-family: "Oswald", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 62px;
+}
+
+.logo .h1 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 44px;
+  font-weight: 1000;
+  color: #050505;
+  font-family: "Oswald", sans-serif;
+
+}
+
+.logo .h2 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 44px;
+  font-weight: 1000;
+  color: rgb(251, 251, 251);
+  font-family: "Oswald", sans-serif;
+}
+
+.nav-bar {
+  margin-left: 317px;
+  padding-top: 23px;
+  display: flex;
+  letter-spacing: 0.5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  list-style: none;
+  padding: 24px;
+  font-size: 18px;
+  color: gray;
+}
+
+.nav-bar a:hover {
+  color: black;
+  font-weight: bold;
+}
+
+.nav-bar a:hover,
+.nav-bar a.active {
+  color: black;
+}
+
+.nav-bar .login {
+  padding-left: 59px;
+}
+
+.login .log {
+  font-size: 18px;
+}
+
+.search #img1 {
+  width: 17px;
+  padding-top: 2px;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main .image img {
+  padding-left: 300px;
+  padding-top: 73px;
+}
+
+.heading {
+  padding-left: 76px;
+  padding-top: 88px;
+}
+
+.heading .coffee {
+  font-family: " Oswald ", sans-serif;
+  font-size: 117px;
+  font-weight: 1000;
+}
+
+.heading .taste {
+  font-size: 35px;
+  color: rgb(216, 112, 112);
+  font-family: "Oswald", sans-serif;
+  padding: 19px 17px 0;
+}
+
+.heading p {
+  font-family: "Oswald", sans-serif;
+  padding: 3px 19px;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  padding: 65px 0px 1px 21px;
+  letter-spacing: .5px;
+
+}
+
+.button button:hover {
+  color: rgb(216, 112, 112);
+}
+
+.button button {
+  color: white;
+  background-color: rgba(26, 25, 25, 0.721);
+  font-size: 20px;
+  border-radius: 15px;
+
+
+}
+
+.button .btn1 {
+  padding: 23px 49px;
+  letter-spacing: 1.1px;
+
+
+
+
+}
+
+.button .btn2 {
+  margin-left: 95px;
+  padding: 1px 48px;
+  letter-spacing: 1.1px;
+
+
+}
+
+.service h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  padding-top: 42px;
+  font-family: "Oswald", sans-serif;
+  color: rgb(45, 42, 42);
+
+
+}
+
+#img {
+  margin-left: 734px;
+}
+
+.my-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.card-item {
+  display: inline-block;
+  margin: 37px 37px 0 37px;
+}
+
+.picture {
+  border-radius: 6px;
+  transition: 0.1s ease-in;
+}
+
+.picture:hover {
+  transform: scale(1.09);
+}
+
+.my-card.card-item .h3 {
+  font-size: 25px;
+}
+
+.card-item p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.about #h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  padding-top: 94px;
+  font-family: "Oswald", sans-serif;
+
+}
+
+.about .logo {
+  margin-left: 734px;
+}
+
+#shop {
+  position: relative;
+}
+
+#shop img {
+
+  margin-left: 500px;
+  height: 80vh;
+  width: 60vw;
+  padding-top: 50px;
+}
+
+.box {
+  position: absolute;
+  bottom: 40px;
+  left: 280px;
+  background-color: rgb(251, 249, 249);
+  color: rgb(32, 30, 30);
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 30vw;
+  height: 60vh;
+
+}
+
+#shop .box h3 {
+  padding-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#shop .box p {
+  padding-top: 35px;
+
+}
+
+.login4 {
+  display: flex;
+  flex-direction: column;
+}
+
+.login4 h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  padding-top: 94px;
+  font-family: "Oswald", sans-serif;
+
+
+}
+
+.login4 img {
+
+  width: 58px;
+  margin-left: 48vw;
+}
+
+.login1 {}
+
+
+
+.login4 .login1 .login2 {
+  display: flex;
+  flex-direction: column;
+  width: 39vw;
+  height: 50vh;
+  margin: 22px 0 0 32vw;
+  ;
+
+}
+
+.form {
+  border: solid 2px black;
+  padding-left: 9vw;
+  padding-top: 2vw;
+  padding-bottom: 9vw;
+  border-radius: 1vw;
+  padding-right: 10vw;
+}
+
+.login4 input {
+  display: flex;
+  flex-direction: column;
+  height: 9vh;
+  margin-bottom: 17px;
+  border-radius: 25px;
+  width: 30vw;
+  padding-left: 6vw;
+
+
+
+
+}
+
+.login4 button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 9vw;
+  height: 9vh;
+  font-size: 19px;
+  background-color: rgb(216, 112, 112);
+  border-radius: 17px;
+  margin-left: 46vw;
+}
+
+.footer {
+
+  padding-top: 22px;
+}
+
+.footer footer {
+  height: 14vh;
+  background-color: black;
+  color: white;
+}
+
+footer p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5vh;
+}

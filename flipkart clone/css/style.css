@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+:root{
+    --main-bg-color:#2874f0;
+}
+
+
+.logo{
+    height: 5rem;
+    /* background-color: green; */
+    width: 20%;
+    overflow: hidden;
+    /* padding: 1rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-block: 1rem;
+}
+.list{
+    cursor: pointer;
+}
+.list:hover{
+    color: black;
+}
+img{
+    margin: 10rem;
+    height: 95%;
+    width: 95%;
+    object-fit: cover;
+}
+
+nav ul li{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+nav ul{
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    /* background-color: blue; */
+    background-color: var(--main-bg-color);
+}
+.input_div{
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 2rem;
+}
+.input{
+    width: 39rem;
+    padding: 1rem;
+
+}
+.btn{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.btn:hover{
+    font-weight: bolder;
+    
+}
+.menu{
+    width: 5rem;
+    height: 3.9rem;
+    background-color: black;
+    display: inline-block;
+    /* position: relative; */
+}
+.drop{
+    
+    background-color: whitesmoke;
+    color: black;
+    text-decoration: none;
+    
+}
+.dropdown-options{
+    display: none;
+    overflow: auto;
+    height: 10em;
+    /* position: absolute; */
+}
+.menu:hover .dropdown-options{
+    display: block;
+}
+
+.m{
+    width: 100%;
+    height: 100%;
+    cursor:pointer;
+}
+
+.login-button{
+    
+    width: 15rem;
+    height: 2rem;
+    background-color: black;
+}
+*{
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+li{
+    color: black;
+}
+ul{
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+.container{
+    min-height: calc(100vh - 13vh - 8vh);
+}
+.search{
+    width: 30em;
+    height: 4em;
+    /* position: relative;
+    left: 147vh; */
+    ;
+}
+
+footer{
+    height: 8vh;
+    background: var(--main-bg-color);
+    /* background-color: black; */
+    color: white;
+}
+
+/* .Flex-all-center{
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+} */

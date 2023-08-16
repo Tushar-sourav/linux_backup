@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.fatherContainer{
+    height: 100vh;
+    background-color: #ddd5eb;
+    display: flex;
+}
+.head-image{
+    background-color: azure;
+    background-image: url("/Downloads/backgroundimage.jpeg");
+    background-size:contain;
+    height: 30vh;
+    width: 100vw;
+}

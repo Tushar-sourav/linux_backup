@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduQuery</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+           <div class="nav-links">
+            <i class="fa fa-times" onclick="hidemenu()"></i>
+            <ul>
+                <li><a href="main.html">Home</a> </li> 
+                <li><a href="videos.html">About Us</a> </li> 
+                <li> <a href="question.html">Question Paper</a></li> 
+                <li><a href="blog.html">Blog</a> </li> 
+                <li><a href="contact.html">Contact</a></li>
+            </ul> 
+            </ul> 
+           </div>
+           <i class="fa fa-bars"  onclick="showmenu()"></i>
+        </nav>
+
+        <h1>About Us</h1>
+
+    </section>
+
+    <!-- anout us content -->
+    <section class="aboutus">
+        <div class="row">
+            <div class="aboutcol">
+                <h1>we are the world largest university</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, esse voluptates placeat possimus porro rem deserunt a ducimus ea autem quibusdam minus reiciendis non nihil laudantium quam nostrum asperiores impedit.</p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="aboutcol">
+                <img src="images/about.jpg" alt="">
+            </div>
+        </div>
+    </section>
+   
+   
+    <!-- footer -->
+
+    <section class="footer">
+        <h4>about us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, molestias.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+           
+
+        </div>
+        <p>Made with  <i class="fa fa-heart-o">sharda kaur</i></p>
+    </section>
+
+<!-- javascript for toggle menu -->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showmenu(){
+            navLinks.style.right = "0";
+        }
+        function hidemenu(){
+            navLinks.style.right ="-200px";
+        }
+    </script>
+</body>
+</html>

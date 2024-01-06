@@ -1,0 +1,13 @@
+#!/bin/bash
+
+read -p "enter no " var1
+v=0
+for (( i=v; i<=var1; i++))
+do
+	var2=$[i%2]
+	if( var2==0 )
+	do
+		echo $i "prime no"
+	fi
+done
+

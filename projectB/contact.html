@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduQuery</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+           <div class="nav-links">
+            <i class="fa fa-times" onclick="hidemenu()"></i>
+            <ul>
+                <li><a href="main.html">Home</a> </li> 
+                <li><a href="videos.html">About Us</a> </li> 
+                <li> <a href="question.html">Question Paper</a></li> 
+                <li><a href="blog.html">Blog</a> </li> 
+                <li><a href="contact.html">Contact</a></li>
+            </ul> 
+            </ul> 
+           </div>
+           <i class="fa fa-bars"  onclick="showmenu()"></i>
+        </nav>
+
+        <h1>Contact Us</h1>
+    </section>
+    
+ <!-- contact us -->
+ <section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3437.1749717999587!2d76.65720287441194!3d30.51609109607247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fc32344a6e2d7%3A0x81b346dee91799ca!2sChitkara%20University!5e0!3m2!1sen!2sin!4v1694439806501!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+ </section>
+   <section class="contactus">
+    <div class="row">
+        <div class="contactcol">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>Chitkara University</h5>
+                    <p>Chandigarh, Punjab, IN</p>
+                </span>
+            </div><div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>534686535356</h5>
+                    <p>Chandigarh, </p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope-open"></i>
+                <span>
+                    <h5>chitakar.edu.in</h5>
+                    <p>Email us your query</p>
+                </span>
+            </div>
+
+        </div>
+        <div class="contactcol">
+            <form action="">
+                <input type="text" placeholder="enter your name" required>
+                <input type="email" placeholder="enter email address" required>
+
+                <input type="text" placeholder="enter your subject" required>
+                <textarea rows="8" placeholder="message" required></textarea>
+                <button type="submit" class="hero-btn red-btn">send message</button>
+
+            </form>
+        </div>
+    </div>
+   </section>
+    <!-- footer -->
+
+    <section class="footer">
+        <h4>about us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, molestias.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+           
+
+        </div>
+        <p>Made with  <i class="fa fa-heart-o">sharda kaur</i></p>
+    </section>
+
+<!-- javascript for toggle menu -->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showmenu(){
+            navLinks.style.right = "0";
+        }
+        function hidemenu(){
+            navLinks.style.right ="-200px";
+        }
+    </script>
+</body>
+</html>

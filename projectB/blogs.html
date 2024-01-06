@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduQuery</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+           <div class="nav-links">
+            <i class="fa fa-times" onclick="hidemenu()"></i>
+            <ul>
+                <li><a href="index.html">Home</a> </li> 
+             
+                <li><a href="videos.html">About Us</a> </li> 
+                <li> <a href="question.html">Question Paper</a></li> 
+                <li><a href="blog.html">Blog</a> </li> 
+                <li><a href="contact.html">Contact</a></li>
+            </ul> 
+            </ul> 
+           </div>
+           <i class="fa fa-bars"  onclick="showmenu()"></i>
+        </nav>
+
+        <h1>Blogs</h1>
+    </section>
+    <!-- blog page content -->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blogleft">
+                <img src="images/certificate.jpg" alt="">
+                <h2>our certificate and online programs for 21</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ab praesentium facilis voluptatum, nesciunt nobis fuga iste. Harum unde qui earum odit aut ut nisi iusto reprehenderit at, corporis commodi?</p>
+                <br>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae pariatur, quo dicta laboriosam fugit minus accusamus, blanditiis placeat qui doloribus autem ratione accusantium error veniam. Veniam a voluptates nostrum voluptatibus.</p>
+                <br>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde autem obcaecati veritatis sapiente at iure? Consequatur nisi aperiam, consectetur iure eveniet cupiditate quas praesentium. Perferendis molestias reiciendis id odio recusandae.</p>
+                <br>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, ipsum velit, vel a qui minima expedita deserunt nulla tempore perferendis quas. Similique laudantium eum vero unde, itaque iste adipisci nesciunt?</p>
+                <div class="commentbox">
+                    <h3>leave a comment</h3>
+                    <form  class="commentform">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="your comment"></textarea>
+                        <button type="submit" class="hero-btn redbtn">POST COMMENT
+
+                        </button>
+
+                    </form>
+                    
+                </div>
+
+            </div>
+            <div class="blogright">
+                <h3>post categories</h3>
+                <div>
+                    <span>business analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>data science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>machine learning</span>
+                    <span>27</span>
+                </div>
+                <div>
+                    <span>commerce</span>
+                    <span>74</span>
+                </div>
+                <div>
+                    <span>journalism</span>
+                    <span>71</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    <!-- footer -->
+
+    <section class="footer">
+        <h4>about us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, molestias.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+           
+
+        </div>
+        <p>Made with  <i class="fa fa-heart-o">sharda kaur</i></p>
+    </section>
+
+<!-- javascript for toggle menu -->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showmenu(){
+            navLinks.style.right = "0";
+        }
+        function hidemenu(){
+            navLinks.style.right ="-200px";
+        }
+    </script>
+</body>
+</html>

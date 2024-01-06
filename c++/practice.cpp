@@ -1,42 +1,23 @@
 #include <iostream>
-#include <set>
-#include <vector>
-#include <array>
-using namespace std;
+#include <string.h>
 
-vector<int> printArray(vector<int> some_vector){
-    return some_vector;
-}
 
-void duplicate(int arr[],int size){
-    set<int> nArr;
-    for(int i=0;i<size;i++){
-        nArr.insert(arr[i]);
-    }
-    
-
-    for(int i:nArr){
-        int count=1;
-        for(int j=0;j<size;j++){
-            if(i==arr[j]){
-                count++;
-            }
+bool isPalindrome(std::string arr,int s,int e){
+    if(s<=e){
+        if(arr[s]!=arr[e]){
+            return 0;
         }
-        cout<<i<<"-->"<<count<<endl;
+        else{
+            return isPalindrome(arr,s+1,e-1);
+        }
     }
-    cout<<endl;
+    return 1;
 }
-
-
 
 int main(){
-     int newArray[]={1,2,3,4,1,3,4};
+    std::string name="abca";
+    int s=0;
+    int e=name.size()-1;
+    std::cout<<isPalindrome(name,s,e)<<std::endl;
 
-    duplicate(newArray,4);
-
-    array<int,4> loda={1,2,3,4};
-    vector<int> hell ={1,2,3};
-    vector<int> something = printArray(hell);
-
-    // cout<<newArray[2]<<endl;
 }

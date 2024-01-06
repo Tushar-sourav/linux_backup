@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduQuery</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+           <div class="nav-links">
+            <i class="fa fa-times" onclick="hidemenu()"></i>
+            <ul>
+                <li><a href="main.html">Home</a> </li> 
+                <li><a href="videos.html">About Us</a> </li> 
+                <li> <a href="question.html">Question Paper</a></li> 
+                <li><a href="blog.html">Blog</a> </li> 
+                <li><a href="contact.html">Contact</a></li>
+            </ul> 
+            </ul> 
+           </div>
+           <i class="fa fa-bars"  onclick="showmenu()"></i>
+        </nav>
+
+        <h1>Question Papers</h1>
+
+    </section>
+    <section class="course">
+        <h1>Chitkara University Question Paper</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quos a quod voluptates eius asperiores numquam natus, voluptas commodi laboriosam iusto modi nostrum enim, molestias iste dolorem saepe, ullam fugit!</p>
+            <div class="coursecol">
+                <h3>UNDER GRADUATE PAPERS </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus nam maxime distinctio illo magnam dignissimos sequi dolore, libero ad velit.</p>
+
+            </div>
+            <div class="coursecol">
+                <h3>POST GRADUATE PAPERS</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus nam maxime distinctio illo magnam dignissimos sequi dolore, libero ad velit.</p>
+
+            </div>
+            <div class="coursecol">
+                <h3>DOCTORATE PAPERS</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus nam maxime distinctio illo magnam dignissimos sequi dolore, libero ad velit.</p>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- facilities -->
+    <section class="facility">
+        <h1>Our Facilities</h1>
+        <p style="font-size:large ;">We provide facilities which are given below.</p>
+
+
+        <div class="row">
+            <div class="facilitycol">
+                <img src="images/library.jpg" height="220px">
+                <h3>Search and Browse Functionality</h3>
+                <p>Implement a powerful search engine to help users find specific question papers.
+                    Enable browsing by subject, level (e.g., high school, college), and exam type (e.g., SAT, GRE).
+                    Include filters for year, topic, and difficulty level.</p>
+            </div>
+            <div class="facilitycol">
+                <img src="images/basketball.jpg">
+                <h3>Question Paper Download</h3>
+                <p>Provide easy and secure download options for users.
+                    Include the option to download papers in various formats (PDF, Word, etc.).</p>
+            </div>
+            <div class="facilitycol">
+                <img src="images/cafetaria.jpg" height="220px">
+                <h3>User Feedback and Support</h3>
+                <p>Provide a feedback system for users to report issues, suggest improvements, or request specific question papers.
+                    Offer customer support through email or chat..</p>
+            </div>
+        </div>
+    </section>
+   
+   
+    <!-- footer -->
+
+    <section class="footer">
+        <h4>about us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, molestias.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+           
+
+        </div>
+        <p>Made with  <i class="fa fa-heart-o">sharda kaur</i></p>
+    </section>
+
+<!-- javascript for toggle menu -->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showmenu(){
+            navLinks.style.right = "0";
+        }
+        function hidemenu(){
+            navLinks.style.right ="-200px";
+        }
+    </script>
+</body>
+</html>
